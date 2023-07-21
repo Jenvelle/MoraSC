@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Show your Colors - Colaire</title>
+
+  <link rel="shortcut icon" href="./assets/images/logo/colaire1.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  
+  <!------- CSS --------------->
+  <link rel="stylesheet" href="./assets/style.css">
+
+  <!------- GOOGLE FONTS --------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!------- ICON UNICONS --------------->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+
+  <!------- HEADER --------------->
+  <div class="header-top">
+    <div class="container">
+      <ul class="header-social-container">
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+      <div class="header-alert-news">
+        <p>
+          <b>Free Shipping</b>
+          This Week Order Over - $49.99
+        </p>
+      </div>
+
+      <div class="header-top-actions">
+
+        <select name="language">
+          <option value="en-US">English</option>
+          <option value="es-ES">Espa&ntilde;ol</option>
+          <option value="fr">Fran&ccedil;ais</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-main">
+    <div class="container">
+      <a href="#" class="header-logo">
+        <img src="./assets/images/logo/colaire1.png" alt="Colaire's logo" width="120" height="36">
+      </a>
+      <div class="header-search-container">
+        <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="header-user-actions">
+        <button class="action-btn" id="form-open">
+          <ion-icon name="person-outline" id="user-icon"></ion-icon>
+        </button>
+        <button class="action-btn">
+          <ion-icon name="heart-outline"></ion-icon>
+          <span class="count">0</span>
+        </button>
+        <button class="action-btn">
+          <ion-icon name="bag-handle-outline"></ion-icon>
+          <span class="count">0</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-------MAIN --------------->
+  <main class="main">
+    <section class="section contact grid">
+
+      <span class="sub-title sub-contact">ANSWERS WITHIN 24H</span>
+      <h2 class="section-title title-contact">Contact <span class="section-span">Us</span></h2>
+      <div class="contact-container">
+
+        <div class="content-descrition">
+          <h3 class="delaySmall">About Us</h3>
+          <h4 class="contact-title">Morasc is a brand that focuses on designing game peripherals.</h4>
+
+          <div class="container-accordion">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+              <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="false">
+                  <span class="accordion-title">When will I receive my order?</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    We make every effort to get it to you as soon as possible once the order is submitted successfully. Actual delivery may vary due to customized processing time, different shipping address, customs clearance time and some other force factors. <br> Delivery time=Processing time + Shipping time<br> Shipping time: The shipping courier and cost will vary due to the service restriction and policy in different regions and cities.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false">
+                  <span class="accordion-title">Why has my order tracking status not updated?</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Tracking updates can be delayed when the parcel is:<br>1. Going through local customs clearance procedures<br>2. At the post office sorting center<br>3. Held up by uncontrollable factors including, such as labor strikes, bad weather, politic issues,etc.<br>If you experience any delays in tracking updates, we recommend you check the estimated delivery time. If your package is taking longer than schedule, please contact us at <a href="mailto:colaire@gmail.com">colaire@gmail.com</a>.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false">
+                  <span class="accordion-title">Why it says delivered while I receive nothing?</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Possible reasons include:<br>A. The delivery address is incorrect .<br>B. Someone else has signed for the parcel.<br>C. The parcel has arrived at your local post office and will be delivered in 1-2 business days.<br>D. The parcel has been delivered and left in your mailbox.<br>If the shipping address is incorrect, please contact us.<br>If the shipping address is correct, we recommend you check your Mailbox and look around your property to be sure it has not been left outside. If you still can not find the package, please contact us at <a href="mailto:colaire@gmail.com">colaire@gmail.com</a>.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false">
+                  <span class="accordion-title">How can I change the order after paid?</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    If you want to change an order, please contact us within 24 hours.<br>Sending changing requests over 24 hours after placing order. There is no guarantee that the modification can be successful.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false">
+                  <span class="accordion-title">How to return or exchange an order if I don't like it?</span>
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Items shipped from us can be returned within 30 days of receipt of shipment in most cases. <br> Please contact customer service center for the shipping address when you are allowed to return.<br>Send us an E-mail at: <a href="mailto:colaire@gmail.com">colaire@gmail.com</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <a href="https://github.com/EvanderInacio"><i class="uil uil-github delaySmall"></i></a>
+            <a href="#"><i class="uil uil-instagram delayMedium"></i></a>
+            <a href="https://www.linkedin.com/in/evander-inacio/"><i class="uil uil-linkedin-alt delayLarge"></i></a>
+          </div>
+
+
+        </div>
+        <div class="container-form">
+          <h3 class="form-title delayMedium">Still need help?</h3>
+          <p class="form-description delayMediumBottom">You can reach us anytime via <span
+              class="section-span">colaire@email.com</span></p>
+
+          <form action="https://formsubmit.co/evander.corinthiano@hotmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://playstation-4.vercel.app/assets/html/envio.html">
+
+            <div class="content-form delayMedium">
+              <label for="name">Name</label>
+              <input type="text" id="name" required placeholder="  Your name">
+            </div>
+            <div class="content-form delayLarge">
+              <label for="email">Email</label>
+              <input type="email" id="email" required placeholder="  your@email.com">
+            </div>
+            <div class="content-form delayLargeTopExtra">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="5" placeholder="  What do your need?"></textarea>
+            </div>
+            <div class="content-form">
+              <button class="button-form delayLargeTopExtra" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!------- FOOTER --------------->
+  <footer>
+    <div class="footer-nav">
+
+      <div class="container">
+
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Facebook</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Twitter</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Instagram</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Tiktok</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">youtube</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Terms</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Privacy Policy</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Return Policy</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Shipping & Delivery</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Secure payment</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Get help</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">About Us</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">FAQs</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="assets/html/contact.html" class="footer-nav-link">Contact us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              Bernwood Residences Block 2 Lot 5, Mirasol St., Nabitasan, Lapaz, Iloilo City, 5000 Philippines
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">(607) 936-8058</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">shamelgonzaga13@gmail.com |
+              matthewsliwag@gmail.com</a>
+          </li>
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+        <p class="copyright">
+          Copyright &copy; <a href="#">Colaire</a> all rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+  <!--================== BUTTON SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scroll_icon"></i>
+  </a>
+
+  <!------- SCROLL REVEAL --------------->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!------- JS --------------->
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

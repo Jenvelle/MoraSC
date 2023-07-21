@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product detail page</title>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/assets/html/assets/product-details/product-details.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  
+  <div class="header-top">
+    <div class="container">
+      <ul class="header-social-container">
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+      <div class="header-alert-news">
+        <p>
+          <b>Free Shipping</b>
+          This Week Order Over - ₱3000
+        </p>
+      </div>
+
+      <div class="header-top-actions">
+
+        <select name="language">
+          <option value="en-US">English</option>
+          <option value="es-ES">Espa&ntilde;ol</option>
+          <option value="fr">Fran&ccedil;ais</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-main">
+    <div class="container">
+      <a href="#" class="header-logo">
+        <img src="/assets/images/logo/colaire1.png" alt="Colaire's logo" width="120" height="36">
+      </a>
+      <div class="header-search-container">
+        <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="header-user-actions">
+        <button class="action-btn" id="form-open">
+          <ion-icon name="person-outline" id="user-icon"></ion-icon>
+        </button>
+        <button class="action-btn">
+          <ion-icon name="heart-outline"></ion-icon>
+          <span class="count">0</span>
+        </button>
+        <button class="action-btn">
+          <ion-icon name="bag-handle-outline"></ion-icon>
+          <span class="count">0</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Home -->
+  <div class="form_container">
+    <i class="uil uil-times form_close"></i>
+    <!-- Login From -->
+    <div class="form login_form">
+      <form action="#">
+        <h2>Login</h2>
+
+        <div class="input_box">
+          <input type="email" placeholder="Enter your email" required />
+          <i class="uil uil-envelope-alt email"></i>
+        </div>
+        <div class="input_box">
+          <input type="password" placeholder="Enter your password" required />
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw_hide"></i>
+        </div>
+
+        <div class="option_field">
+          <span class="checkbox">
+            <input type="checkbox" id="check" />
+            <label for="check">Remember me</label>
+          </span>
+          <a href="#" class="forgot_pw">Forgot password?</a>
+        </div>
+
+        <button class="button">Login Now</button>
+
+        <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+      </form>
+    </div>
+
+    <!-- Signup From -->
+    <div class="form signup_form">
+      <form action="#">
+        <h2>Signup</h2>
+
+        <div class="input_box">
+          <input type="email" placeholder="Enter your email" required />
+          <i class="uil uil-envelope-alt email"></i>
+        </div>
+        <div class="input_box">
+          <input type="password" placeholder="Create password" required />
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw_hide"></i>
+        </div>
+        <div class="input_box">
+          <input type="password" placeholder="Confirm password" required />
+          <i class="uil uil-lock password"></i>
+          <i class="uil uil-eye-slash pw_hide"></i>
+        </div>
+
+        <button class="button">Signup Now</button>
+
+        <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+      </form>
+    </div>
+  </div>
+
+  </header>
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product" aria-label="product">
+        <div class="container">
+
+          <div class="product-slides">
+
+            <div class="slider-banner" data-slider>
+              <figure class="product-banner">
+                <img src="/assets/images/products/albedo1.webp" width="600" height="600" loading="lazy" alt="Nike Sneaker"
+                  class="img-cover">
+              </figure>
+            </div>
+
+          </div>
+
+          <div class="product-content">
+
+            <p class="product-subtitle">Mondstadt</p>
+
+            <h1 class="h1 product-title">Albedo</h1>
+
+            <p class="product-text">
+              Albedo is a playable Geo character in Genshin Impact. A synthetic human made by the alchemist Rhinedottir, the mysterious Albedo is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.
+            </p>
+
+            <div class="wrapper">
+
+              <span class="price" data-total-price>₱935.00</span>
+
+              <span class="badge">15%</span>
+
+              <del class="del">₱1100.00</del>
+
+            </div>
+
+            <div class="btn-group">
+
+              <div class="counter-wrapper">
+
+                <button class="counter-btn" data-qty-minus>
+                  <ion-icon name="remove-outline"></ion-icon>
+                </button>
+
+                <span class="span" data-qty>1</span>
+
+                <button class="counter-btn" data-qty-plus>
+                  <ion-icon name="add-outline"></ion-icon>
+                </button>
+
+              </div>
+
+              <button class="cart-btn">
+                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Add to cart</span>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+
+</body>
+
+</html>
